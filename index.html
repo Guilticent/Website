@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cade Adams – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Cade Adams</h1>
+  
+      <button
+        type="button"
+        class="menu-btn"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Toggle menu"
+      >
+        Menu
+      </button>
+  
+      <!-- Add an id here -->
+      <nav id="main-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#beyond">Beyond</a>
+        <a href="#contact">Contact</a>
+        <a href="doc/Adams_Matthew_Resume_2026.pdf">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="section">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">CS Senior · Cyber Security Minor</p>
+            <h2>Developer looking to grow</h2>
+            <p>
+              I’m Cade Adams, a current Computer Science student at Texas A&M. Always looking
+              build my experience and honing my skills in a professional environment. I'm a hard worker
+              who likes to work on small projects.
+            </p>
+          </div>
+      
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orbit">
+              <div class="planet"></div>
+              <div class="orbit-dot orbit-dot-1"></div>
+              <div class="orbit-dot orbit-dot-2"></div>
+            </div>
+            <p class="hero-caption">"Science isn't about why! It's about why not!" - Cave Johnson (Portal)</p>
+          </div>
+        </div>
+      </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="aboutSplit">
+          <div class="splitLeft">
+            <img src="images/me.jpg" alt="Image of Me">
+          </div>
+          <div class="splitRight">
+            <h2>About Me</h2>
+            <p>
+              I’m a Computer Science senior with a minor in Cyber Security
+              at Texas A&M. I started programming in the 5th Grade after joined a local robotics
+              team doing VexIQ. Since then coding has grown from a hobby to a passion as I continued
+              Robotics through Highschool through FIRST Robotics in Team 1296: The Full Metal Jackets.
+            </p>
+            <p>
+              Going into college, I moved along a different path wanting to explore other opportunities
+              and went into Computer Science. Through my education, I learned about Software Engineering,
+              Cyber Security, and the industry. Now, I am looking to build experience and grow further as a developer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills, Technologies, &amp; Certifications</h2>
+        <ul>
+          <li>Certifications: 
+          <ul>
+            <li>CompTIA Security+ Certified - #:TJ6CHK2Y9BFQ5DRJ (08/2025)  </li>
+          </ul>
+          <li>Skills:</li>
+          <ul>
+            <li>Web Development (Hope you think I did good on this website)</li>
+            <li>Project Management/Methodologies</li>
+            <li>Critical Thinker</li>
+            <li>Adaptive</li>
+            <li>And More!</li>
+          </ul>
+          <li>Technologies:</li>
+          <ul>
+            <li>OS: Linux, Windows, Unix, Command Line, Virtual Machines</li>
+            <li>Languages: C++, Python, Java, C#, HTML, JavaScript, CSS, SQL</li>
+            <li>Other: AI/ML, AWS (API), React, Node.js, Docker, PostgreSQL</li>
+          </ul>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+      </div>
+      <div class="p-Container">
+        <div class="content-block">
+          <h2>Triply</h2>
+          <img src="images/Triply-HomePage.jpg" alt="Triply Home Page" class="p-Image">
+          <p>
+            Triply was the project I made during the first hackathon I participated it. Tidalhack 2026 was a blast,
+            and I'm honored I had great members of my team to work with me. We used React Go to create a mobile experience
+            with a python backend using FastAPI, this was also my first use of AI/ML public project. This project went on to win
+            "Best UX/UI Hack" for the entire competition.
+          </p> 
+        </div>
+        <div class="content-block">
+          <h2>Script Killer</h2>
+          <img src="images/Script-Killer-UI.png" alt="UI of Script Killer Project" class="p-Image">
+          <p>
+            Script Killer is a simple but effective project. It is a cyber-security multitool. Made in Golang,
+            this project uses already existing open source vulnerability scanners for a variety of languages to help
+            prevent vulnerabilities across entire projects. What's seen above is the UI, and it worked with core languages like
+            C++, Python, Java, Golang, and more.
+          </p>
+        </div>
+        <div class="content-block">
+          <h2>Volunteer Portal</h2>
+          <img src="images/logo.png" alt="Volunteer System Logo" class="p-Image">
+          <p>
+            This is what I am currently working on right now. This is my Senior Capstone project. 
+            By the time we are done, it will be a tool that can be used to introduce users to volunteer
+            opportunities in the Bryan/College Station area. It is designed to be a webapp using React Native,
+            with a backend hosted on Convex.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="beyond" class="section">
+      <div class="container">
+        <h2>Goals and Aspirations</h2>
+        <ul>
+          <li>Work on projects that with help me, those around me, or the world.</li>
+          <li>Find a professional job.</li>
+          <li>Develop a video game or start long term side project on my own time.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-wrapper">
+
+          <h2 class="contact-title">Contact Me</h2>
+          <p class="contact-subtitle">
+            Interested in working together or just want to connect? 
+            Reach out through any platform below.
+          </p>
+
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/madams566/" target="_blank">
+              <img class="contact_logo" src="images/LinkIn_Logo.png" alt="LinkedIn Logo">
+            </a>
+
+            <a href="https://github.com/Guilticent" target="_blank">
+              <img class="contact_logo" src="images/Github_Logo.png" alt="GitHub Logo">
+            </a>
+          </div>
+
+          <div class="contact-info">
+            <p>Email: ryj566@gmail.com</p>
+            <p>Location: College Station, Texas</p>
+            <a href="doc/Adams_Matthew_Resume_2026.pdf"><button class="rButton">Resume</button></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const mainNav = document.getElementById('main-nav');
+
+    if (menuBtn && mainNav) {
+      menuBtn.addEventListener('click', () => {
+        const isOpen = mainNav.classList.toggle('open');
+        menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    }
+  </script>
+</body>
+</html>
+
+
+
